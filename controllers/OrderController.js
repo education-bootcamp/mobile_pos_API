@@ -22,7 +22,6 @@ const getOrders = async (req, res)=>{
     }
 }
 
-
 // @desc Get single order
 // @route GET /api/v1/orders/:id
 // @access Private
@@ -222,4 +221,12 @@ const deleteOrder = async (req, res)=>{
             error:error.message
         })
     }
+}
+
+module.exports={
+    getOrders,
+    getOrder,
+    createOrder,
+    updateOrder,
+    deleteOrder
 }
