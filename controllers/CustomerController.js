@@ -46,7 +46,7 @@ const getCustomer = async (req, res)=>{
 }
 
 // @desc Create New Customer
-// @route POST /api/v1/customers
+// @route GET /api/v1/customers
 // @access Private
 const createCustomer = async (req, res)=>{
     try{
