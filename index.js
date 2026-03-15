@@ -22,7 +22,7 @@ app.use(cors());
 app.use('/api/v1/auth', require('./routes/authRoutes'));
 app.use('/api/v1/customers', require('./routes/CustomerRoutes'));
 app.use('/api/v1/products', require('./routes/ProductRoutes'));
-app.use('/api/v1/orders', require('./routes/orderRoutes'));
+app.use('/api/v1/orders', require('./routes/OrderRoutes'));
 app.use('/api/v1/dashboard', require('./routes/dashboardRoutes'));
 
 // Root route
